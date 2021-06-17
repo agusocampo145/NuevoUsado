@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <title>ComprandoUnUsado</title>
+  <link rel="stylesheet" href="Usado.css">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+</head>
+
+<!-- Header, con foto horizontal y nombre de pagina -->
+<header>
+  <div class ="cabezal">
+    <h1>ComprandoUnUsado</h1>
+</div>
+</header>
+
+<!-- Selector de pestañas -->
+  <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'Inicio')" id ="defaultOpen">Inicio</button>
+      <button class="tablinks" onclick="openTab(event, 'Comprando')">Comprando</button>
+      <button class="tablinks" onclick="openTab(event, 'Vendiendo')">Vendiendo</button>
+      <button class="tablinks" onclick="openTab(event, 'Documentacion')">Documentacion</button>
+      <button class="tablinks" onclick="openTab(event, 'Paginas')">Paginas Utiles</button>
+  </div>
+
+
+<body>
+<!-- Inicio del cuerpo de la pagina-->
+
+<!-- Pestaña de Inicio-->
+  <!--Bienvenida y Parrafo Inicial-->
+  <div id="Inicio" class="tabcontent">
+    <div id="inicio1">
+      <div id="Bienvenida">
+            <h3>Bienvenidos a ComprandoUnUsado!</h3>
+      </div>
+        <div class="container">
+          <div class="row">
+            <div id="ParrafoInicio" class="col-sm-4">
+              <p>
+              En esta pagina, nuestro objetivo es poder asesorar a
+              todos aquellos que esten buscando comprar o vender un auto usado, y que se encuentren desorientados
+              al momento de hacerlo. Compartiendo nuestras experiencias pasadas, queremos poder resolver tus dudas, para que puedas realizar tu operacion con facilidad y
+              sin vueltas.
+              </p>
+            </div>
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-5">
+              <img src="img/venta.jpeg" height="400px" width="500px">
+            </div>
+          </div>
+        </div>
+    </div>
+  <!--Bienvenida y Parrafo Inicial-->
+
+  <!--Secciones-->
+  <div id="secciones">
+    <h3> Nuestras diferentes secciones </h3>
+  </div>
+  <div id="containersecciones" class="container">
+    <div id="filaimagenes" class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <img src="img/deal.png">
+        <h5> Compra y venta </h5>
+        <p> Informacion especifica de cada operacion. Desde consejos para publicar tu auto, hasta como analizar publicaciones para comprar un usado.</p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <img src="img/archives.png">
+        <h5>Documentacion </h5>
+        <p> Documentos necesarios para realizar la transferencia, disponibles en formato para descargar y poder completar.</p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <img src="img/http.png">
+        <h5> Paginas Utiles</h5>
+        <p> Enlaces a paginas utiles como la DNRPA, ARBA o Consultas de CABA, donde podras conseguir los informes necesarios o que te sean utiles.</p>
+      </div>
+    </div>
+  </div>
+<!--Secciones-->
+
+<div>
+  <img src="img/frases.jpg" width="100%" height="300">
+</div>
+<h2>¡Que cambiar tu auto ya no sea un proceso tedioso!</h2>
+
+    <p>
+      Muchas veces el echo de cambiar tu auto, puede resultarte muy tedioso. "Tengo que conseguir que me lo compren",
+      "Juntar todos los papeles","Ver que mutas tengo","Averiguar los mil tramites que hay que hacer" "Este auto es un clavo, no lo vendo mas.." "y encima... ¡Despues
+      tengo que hacer todo lo mismo para comprar otro auto!, y anda a saber si no le bajaron los km, o me escondieron algo"
+    </p>
+    <p>
+      Aca es donde entra CompraUnUsado! Nosotros te vamos a guiar durante todo el camino! Vamo a darte consejos de :
+      <ul>
+        <li> Como venderlo </li>
+        <li> Como hacer la publicacion</li>
+        <li>Que documentacion necesitas</li>
+        <li> Entre otras...</li>
+      </ul>
+      ¡Hasta como hacer el tramite paso a paso!. Y despues de la etapa de venta, tambien acompañarte con la compra! :
+      <ul>
+        <li> Como encontrar un auto </li>
+        <li> Que papeles necesitas pedir </li>
+        <li> Como revisar detalles sobre el auto </li>
+        <li> Y muchas cosas mas</li>
+      </ul>
+    </p>
+
+<p>Alto trolo si leista hasta aca </p>
+
+
+
+  </div>
+
+<!-- Pestaña 1, "Comprando" -->
+  <div id="Comprando" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
+
+<!-- Pestaña 2, "Vendiendo" -->
+  <div id="Vendiendo" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+<!-- Pestaña 3, "Documentacion" -->
+  <div id="Documentacion" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+
+  <!-- Pestaña 4, "Paginas Utiles" -->
+    <div id="Paginas" class="tabcontent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+
+
+
+
+
+<!-- Script JS -->
+  <script>
+    document.getElementById("defaultOpen").click();
+    $(document).ready(function() {
+      $('.top a').click(function(e) {
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({
+          scrollTop: offset
+        }, 600);
+        return false;
+      });
+    });
+      function openTab(evt, pestania) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(pestania).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+  </script>
+
+</body>
+
+</html>
