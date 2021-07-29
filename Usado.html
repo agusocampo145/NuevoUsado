@@ -8,17 +8,17 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <title>ComprandoUnUsado</title>
   <link rel="stylesheet" href="Usado.css">
+  <!-- Tipografias -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Cairo&family=Georama:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+ <!--Tipografias-->
   <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 </head>
 
-<!-- Header, con foto horizontal y nombre de pagina -->
-<header>
-  <div class ="cabezal">
-    <h1>ComprandoUnUsado</h1>
-</div>
-</header>
 
 <!-- Selector de pestañas -->
+
   <div class="tab">
       <button class="tablinks" onclick="openTab(event, 'Inicio')" id ="defaultOpen">Inicio</button>
       <button class="tablinks" onclick="openTab(event, 'Comprando')">Comprando</button>
@@ -34,94 +34,76 @@
 <!-- Pestaña de Inicio-->
   <!--Bienvenida y Parrafo Inicial-->
   <div id="Inicio" class="tabcontent">
-    <div id="inicio1">
-      <div id="Bienvenida">
-            <h3>Bienvenidos a ComprandoUnUsado!</h3>
-      </div>
-        <div class="container">
-          <div class="row">
-            <div id="ParrafoInicio" class="col-sm-4">
-              <p>
-              En esta pagina, nuestro objetivo es poder asesorar a
-              todos aquellos que esten buscando comprar o vender un auto usado, y que se encuentren desorientados
-              al momento de hacerlo. Compartiendo nuestras experiencias pasadas, queremos poder resolver tus dudas, para que puedas realizar tu operacion con facilidad y
-              sin vueltas.
-              </p>
-            </div>
-            <div class="col-sm-3">
-            </div>
-            <div class="col-sm-5">
-              <img src="img/venta.jpeg" height="400px" width="500px">
-            </div>
+    <!--Contenedor con logo y frase inicial-->
+      <div id="primero" class="container-fluid">
+        <div id="logop" class="row">
+          <div class="col">
+            <img src="img/NU.png" height="120px">
+          </div>
+        </div>  
+        <div id="frase" class="row">
+          <div class="col">
+            <h4>Toda la informacion que necesitas sobre comprar o vender tu auto usado<h4>
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col">
+            <h4>en un solo lugar.<h4>
           </div>
         </div>
-    </div>
-  <!--Bienvenida y Parrafo Inicial-->
-
-  <!--Secciones-->
-  <div id="secciones">
-    <h3> Nuestras diferentes secciones </h3>
-  </div>
-  <div id="containersecciones" class="container">
-    <div id="filaimagenes" class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <img src="img/deal.png">
-        <h5> Compra y venta </h5>
-        <p> Informacion especifica de cada operacion. Desde consejos para publicar tu auto, hasta como analizar publicaciones para comprar un usado.</p>
       </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <img src="img/archives.png">
-        <h5>Documentacion </h5>
-        <p> Documentos necesarios para realizar la transferencia, disponibles en formato para descargar y poder completar.</p>
+      <!--FIN Contenedor con logo y frase inicial-->
+
+
+      <!--Divisor con frase-->
+      <div id="cambiar" class="container-fluid">
       </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <img src="img/http.png">
-        <h5> Paginas Utiles</h5>
-        <p> Enlaces a paginas utiles como la DNRPA, ARBA o Consultas de CABA, donde podras conseguir los informes necesarios o que te sean utiles.</p>
+      <div id="foto" class="container-fluid">
+        <h2>Queremos que cambiar tu auto usado nunca mas sea un problema</h2>
       </div>
-    </div>
-  </div>
-<!--Secciones-->
+      <!--FIN Divisor con frase-->
 
-<div>
-  <img src="img/frases.jpg" width="100%" height="300">
-</div>
-<h2>¡Que cambiar tu auto ya no sea un proceso tedioso!</h2>
 
-    <p>
-      Muchas veces el echo de cambiar tu auto, puede resultarte muy tedioso. "Tengo que conseguir que me lo compren",
-      "Juntar todos los papeles","Ver que mutas tengo","Averiguar los mil tramites que hay que hacer" "Este auto es un clavo, no lo vendo mas.." "y encima... ¡Despues
-      tengo que hacer todo lo mismo para comprar otro auto!, y anda a saber si no le bajaron los km, o me escondieron algo"
-    </p>
-    <p>
-      Aca es donde entra CompraUnUsado! Nosotros te vamos a guiar durante todo el camino! Vamo a darte consejos de :
-      <ul>
-        <li> Como venderlo </li>
-        <li> Como hacer la publicacion</li>
-        <li>Que documentacion necesitas</li>
-        <li> Entre otras...</li>
-      </ul>
-      ¡Hasta como hacer el tramite paso a paso!. Y despues de la etapa de venta, tambien acompañarte con la compra! :
-      <ul>
-        <li> Como encontrar un auto </li>
-        <li> Que papeles necesitas pedir </li>
-        <li> Como revisar detalles sobre el auto </li>
-        <li> Y muchas cosas mas</li>
-      </ul>
-    </p>
+      <div id="descripcion" class="container-fluid">
+        <div class="row">
+          <div class="col-5">
+            <h2>Toda la informacion que necesitas</h2>
+            <p>En NuevoUsado, nuestro objetivo es poder asesorarte en base a nuestras experiencas pasadas, sobre todo
+                lo que involucra el proceso de venta y compra de autos usados
+            </p>
+            <p>Desde la venta, con consejos de como publicarlo o
+            como sacar fotos atractivas para la pbulicacion, hasta la compra, facilitandote la documentacion que vas a necesitar tener
+             o pedirle al vendedor, para poder realizar todos los tramites sin problemas.
+            </p>
+          </div>
+          <div class="col-2">
+            </div>
+          <div id="logos" class="col-5">
+            <img id="compraventa" src="img/compraventa.png">
+            <img id="documentacion" src="img/Dcoumentacion.png">
+            <img src="img/paginas.png">
+          </div>
 
-<p>Alto trolo si leista hasta aca </p>
+        </div>
+      </div>
+
+
 
 
 
   </div>
+
+
+
+
+
+
+
+
 
 <!-- Pestaña 1, "Comprando" -->
   <div id="Comprando" class="tabcontent">
-    <h3>Paris</h3>
+    <h3></h3>
     <p>Paris is the capital of France.</p>
   </div>
 
@@ -139,11 +121,32 @@
 
   <!-- Pestaña 4, "Paginas Utiles" -->
     <div id="Paginas" class="tabcontent">
-      <h3>Tokyo</h3>
-      <p>Tokyo is the capital of Japan.</p>
+      <ul> 
+        <li> DNRPA (Dirección Nacional de los Registros Nacionales de la Propiedad del Automotor y de Créditos Prendarios)</li>
+        <li>https://www.dnrpa.gov.ar/portal_dnrpa/</li>
+        <li>Radicacion por Patente</li>
+        <li>https://www.dnrpa.gov.ar/portal_dnrpa/radicacion2.php</li>
+        <li>Consulta de Patente ARBA(Provincia de Buenos Aires)</li>
+        <li>http://www8.arba.gov.ar/AvisoDeudas/?imp=1</li>
+        <li>Consulta de Patente AGIP(Capital Federal)</li>
+        <li>https://lb.agip.gob.ar/ConsultaPat/</li>
+      </ul>
     </div>
 
-
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4">
+        <h4> Contacto </h4>
+      </div>
+      <div class="col-7"></div>
+      <div class="col-1">
+        <a href="https://www.instagram.com/zs_spotter/"> <img src="img/instagram.png" height="30px"> </a>
+        <a href="mailto:zs_spotter@outlook.com"> <img src="img/mail.png" height="30px"> </a>
+      </div>
+    </div> 
+  </div>  
+</footer>
 
 
 
@@ -175,8 +178,20 @@
         evt.currentTarget.className += " active";
       }
 
+      $(document).ready(function() {
+			$('.top a').click(function(e) {
+				e.preventDefault();
+				var offset = $($(this).attr('href')).offset().top;
+				$('html, body').animate({
+					scrollTop: offset
+				}, 600);
+				return false;
+			});
+
+		});
   </script>
 
 </body>
 
 </html>
+
